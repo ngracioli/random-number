@@ -10,6 +10,10 @@ button_generator.addEventListener("click", function () {
     result = "Valor Inválido";
   }
 
+  if (min > max) {
+    result = "Valores Incompatíveis";
+  }
+
   document.querySelector("#result span").textContent = result;
 });
 
