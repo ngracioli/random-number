@@ -167,7 +167,7 @@ body {
   }
 }
 
-@media screen and (max-width: 4g50px) {
+@media screen and (max-width: 450px) {
   .wrapper h1 {
     margin-bottom: 1rem;
     font-size: 2rem;
